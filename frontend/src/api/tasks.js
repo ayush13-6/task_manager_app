@@ -1,8 +1,9 @@
 import axios from 'axios';
 
 // Base axios instance — all calls go to /api
-const api = axios.create({ baseURL: '/api' });
-
+const api = axios.create({
+  baseURL: import.meta.env.VITE_API_URL || '/api'
+});
 // Unwrap response and extract error message automatically
 api.interceptors.response.use(
   (res) => res.data,
