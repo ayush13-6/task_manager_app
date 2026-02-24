@@ -8,7 +8,7 @@ const app = express();
 
 connectDB();
 
-app.use(cors({ origin: ['http://localhost:3000', 'http://localhost:5173', 'https://task-manager-app-ruddy-mu.vercel.app', '*'] }));
+app.use(cors({ origin: ['http://localhost:3000', 'http://localhost:5173', 'https://task-manager-app-ruddy-mu.vercel.app', 'https://task-manager-rkgxel2tw-ayush13-6s-projects.vercel.app'] }));
 app.use(express.json());
 
 app.use('/api/tasks', taskRoutes);
