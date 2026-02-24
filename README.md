@@ -1,6 +1,6 @@
-# TaskFlow v2 — React + Tailwind + Node.js + MongoDB
+# Task manager — React + Tailwind + Node.js + MongoDB
 
-Clean, simple full-stack Task Manager rebuilt with Tailwind CSS.
+Clean, simple full-stack Task Manager built with Tailwind CSS.
 
 ## Tech Stack
 - **Frontend:** Reactjs, Tailwind CSS, React Router, Axios
@@ -13,7 +13,7 @@ Clean, simple full-stack Task Manager rebuilt with Tailwind CSS.
 ```bash
 cd backend
 npm install
-cp .env.example .env   # set your MONGO_URI
+cp .env.example .env   
 npm run dev            # runs on http://localhost:5000
 ```
 
