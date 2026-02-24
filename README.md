@@ -24,7 +24,7 @@ npm install
 npm run dev            # runs on http://localhost:3000
 ```
 
-Open **http://localhost:3000**
+Visit **https://task-manager-app-ruddy-mu.vercel.app**
 
 ## API Routes
 | Method | URL | Description |
