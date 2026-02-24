@@ -23,7 +23,7 @@ cd frontend
 npm install
 npm run dev            # runs on http://localhost:3000
 ```
-
+### Deployment
 Visit **https://task-manager-app-ruddy-mu.vercel.app**
 
 ## Features
