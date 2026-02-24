@@ -26,6 +26,13 @@ npm run dev            # runs on http://localhost:3000
 
 Visit **https://task-manager-app-ruddy-mu.vercel.app**
 
+## Features
+- Create new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed or pending
+- Filter tasks by status and priority
+
 ## API Routes
 | Method | URL | Description |
 |--------|-----|-------------|
